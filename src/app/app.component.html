@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+
+  <div id="controls" class="p-grid">
+    <div class="p-col-12">
+      <button pButton type="button" label="Swich 1 & 2" class="ui-button-rounded ui-button-secondary" icon="pi pi-check" iconPos="left" (click)="switchScene()"></button>
+      <button pButton type="button" label="Load scene 3" class="ui-button-rounded ui-button-success" (click)="changeScene('SampleScene3')"></button>
+    </div>
+  </div>
+
+  <div id="game-holder"></div>
+
+</div>
+
+<router-outlet></router-outlet>
+
+
