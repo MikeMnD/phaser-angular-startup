@@ -20,7 +20,7 @@
     "@angular/platform-browser": "~8.0.0",
     "@angular/platform-browser-dynamic": "~8.0.0",
     "@angular/router": "~8.0.0",
-    "ajv": "^6.10.0",
+    "ajv": "^6.12.3",
     "core-js": "^2.5.4",
     "dat.gui": "^0.7.6",
     "phaser": "^3.17.0",
